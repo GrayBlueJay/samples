@@ -8,8 +8,7 @@ namespace TestSagaBatchProducer
     {
         private readonly IServiceProvider _serviceProvider;
         private readonly ILogger<Worker> _logger;
-        private readonly IBus _bus;
-        
+
 
         public Worker(ILogger<Worker> logger, IServiceProvider serviceProvider)
         {
